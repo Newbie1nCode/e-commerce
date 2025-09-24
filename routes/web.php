@@ -12,3 +12,6 @@ Route::get('admin/dashboard', function () {
 Route::get('users/home', function () {
     return view('users.home');
 });
+Route::get('auth/admin/login_admin', function () {
+    return view('auth.admin.login_admin');
+});
